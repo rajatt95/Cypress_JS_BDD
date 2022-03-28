@@ -12,13 +12,15 @@
     "test_BDD_Google_electron_smoke": "cypress run --spec cypress/integration/01-BDD_Google/Google.feature --headed -e TAGS='@smoke'",
     "test_BDD_Google_electron_regression": "cypress run --spec cypress/integration/01-BDD_Google/Google.feature --headed -e TAGS='@regression'",
     "test_BDD_Google_firefox_regression": "cypress run --spec cypress/integration/01-BDD_Google/*.feature --headed -e TAGS='@regression' --browser firefox",
-    "test_BDD_Google_chrome_sanity": "cypress run --spec cypress/integration/01-BDD_Google/Google.feature --headed -e TAGS='@sanity' --browser chrome"
+    "test_BDD_Google_chrome_sanity": "cypress run --spec cypress/integration/01-BDD_Google/Google.feature --headed -e TAGS='@sanity' --browser chrome",
+    "test_BDD_Google_electron_regression_cmr": "cypress run --spec cypress/integration/01-BDD_Google/Google.feature --headed -e TAGS='@regression' --reporter cypress-mochawesome-reporter"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^9.5.2",
     "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.0.0",
     "cypress-xpath": "^1.6.2",
     "multiple-cucumber-html-reporter": "^1.19.0"
   },

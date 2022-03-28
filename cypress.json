@@ -1,4 +1,10 @@
 {
     "ignoreTestFiles":"*.js",
-    "testFiles": "**/*.{feature,features}"
-  }
+    "testFiles": "**/*.{feature,features}",
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/reports/mochawesome-report",
+        "charts": true,
+        "reportPageTitle": "This is a Cypress-Mochawesome-Reporter"
+    }
+}
