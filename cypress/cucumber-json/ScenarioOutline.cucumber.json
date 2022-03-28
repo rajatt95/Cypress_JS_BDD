@@ -1,0 +1,430 @@
+[
+  {
+    "description": "  As a cucumber cypress plugin which handles Scenario Outline\n  I want to allow people to write Scenario Outline tests and run it in cypress",
+    "keyword": "Feature",
+    "name": "Being a plugin handling Scenario Outline",
+    "line": 1,
+    "id": "being-a-plugin-handling-scenario-outline",
+    "tags": [],
+    "uri": "ScenarioOutline.feature",
+    "elements": [
+      {
+        "id": "being-a-plugin-handling-scenario-outline;using-scenario-outlines",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Using Scenario Outlines",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I add 1 and 2",
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I verify that the result is equal the 3",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "being-a-plugin-handling-scenario-outline;using-scenario-outlines",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Using Scenario Outlines",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I add 100 and 200",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I verify that the result is equal the 300",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "being-a-plugin-handling-scenario-outline;use-juicer-with-apple",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Use juicer with apple",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I put \"apple\" in a juicer",
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I switch it on",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I should get \"apple juice\"",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "being-a-plugin-handling-scenario-outline;use-juicer-with-pineapple",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Use juicer with pineapple",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I put \"pineapple\" in a juicer",
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I switch it on",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I should get \"pineapple juice\"",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "being-a-plugin-handling-scenario-outline;use-juicer-with-strawberry",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Use juicer with strawberry",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I put \"strawberry\" in a juicer",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I switch it on",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I should get \"strawberry juice\"",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "being-a-plugin-handling-scenario-outline;a-calculation",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "A calculation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I enter 1 and 2",
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "first",
+                      "second",
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1",
+                      "2",
+                      "3"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I see following result table",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "being-a-plugin-handling-scenario-outline;a-calculation",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "A calculation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I enter 3 and 4",
+            "result": {
+              "status": "passed",
+              "duration": 178000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "first",
+                      "second",
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "3",
+                      "4",
+                      "7"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I see following result table",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "being-a-plugin-handling-scenario-outline;a-calculation",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "A calculation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I enter 5 and 6",
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "first",
+                      "second",
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "5",
+                      "6",
+                      "11"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I see following result table",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "being-a-plugin-handling-scenario-outline;multiple-variables-abc-and-abc",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Multiple variables abc and abc",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I enter variable \"abc\" and \"abc\"",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I verify that both variables have \"abc\" as value",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "being-a-plugin-handling-scenario-outline;multiple-variables-pqr-and-pqr",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "Multiple variables pqr and pqr",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I enter variable \"pqr\" and \"pqr\"",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I verify that both variables have \"pqr\" as value",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "being-a-plugin-handling-scenario-outline;multiple-variables-xyz-and-xyz",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Multiple variables xyz and xyz",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I enter variable \"xyz\" and \"xyz\"",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I verify that both variables have \"xyz\" as value",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
