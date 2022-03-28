@@ -15,7 +15,11 @@
         "name": "Opening a search engine page",
         "tags": [
           {
-            "name": "@focus",
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@smoke",
             "line": 5
           }
         ],
@@ -28,7 +32,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 2578000000
+              "duration": 4823000000
             }
           },
           {
@@ -38,7 +42,262 @@
             "name": "I see \"Google\" in the title",
             "result": {
               "status": "passed",
-              "duration": 55000000
+              "duration": 107000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-main-page;opening-a-search-engine-page-for-search-text-->-title-validation",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Opening a search engine page for search text -> title validation",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 10
+          },
+          {
+            "name": "@bvt",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I open Google page",
+            "result": {
+              "status": "passed",
+              "duration": 3649000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I see \"Google\" in the title",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I search for \"Test Automation Engineer\"",
+            "result": {
+              "status": "passed",
+              "duration": 9712000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I see \"Test Automation Engineer\" in the title",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-main-page;opening-a-search-engine-page-for-search-text-->-title-validation-->-scenario-outline-with-examples-selenium",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Opening a search engine page for search text -> title validation -> Scenario Outline with Examples Selenium",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 25
+          },
+          {
+            "name": "@sanity",
+            "line": 25
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I open Google page",
+            "result": {
+              "status": "passed",
+              "duration": 1457000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I see \"Google\" in the title",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I search for using Scenario Outline and Examples \"Selenium\"",
+            "result": {
+              "status": "passed",
+              "duration": 4713000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-main-page;opening-a-search-engine-page-for-search-text-->-title-validation-->-scenario-outline-with-examples-appium",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Opening a search engine page for search text -> title validation -> Scenario Outline with Examples Appium",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 25
+          },
+          {
+            "name": "@sanity",
+            "line": 25
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I open Google page",
+            "result": {
+              "status": "passed",
+              "duration": 1582000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I see \"Google\" in the title",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I search for using Scenario Outline and Examples \"Appium\"",
+            "result": {
+              "status": "passed",
+              "duration": 4675000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-main-page;opening-a-search-engine-page-for-search-text-->-title-validation-->-scenario-outline-with-examples-restassured",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Opening a search engine page for search text -> title validation -> Scenario Outline with Examples RestAssured",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 25
+          },
+          {
+            "name": "@sanity",
+            "line": 25
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I open Google page",
+            "result": {
+              "status": "passed",
+              "duration": 1268000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I see \"Google\" in the title",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I search for using Scenario Outline and Examples \"RestAssured\"",
+            "result": {
+              "status": "passed",
+              "duration": 4640000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-main-page;opening-a-search-engine-page-for-search-text-->-title-validation-->-scenario-outline-with-examples-cypress",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Opening a search engine page for search text -> title validation -> Scenario Outline with Examples Cypress",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 25
+          },
+          {
+            "name": "@sanity",
+            "line": 25
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I open Google page",
+            "result": {
+              "status": "passed",
+              "duration": 1400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I see \"Google\" in the title",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I search for using Scenario Outline and Examples \"Cypress\"",
+            "result": {
+              "status": "passed",
+              "duration": 5014000000
             }
           }
         ]

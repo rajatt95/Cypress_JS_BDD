@@ -10,6 +10,7 @@ const fruitToJuice = {
   strawberry: "strawberry juice",
 };
 
+
 let juice = "";
 
 // Given I put "<fruit>" in a juicer
