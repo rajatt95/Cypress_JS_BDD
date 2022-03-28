@@ -23,7 +23,7 @@
             "name": "I add 1 and 2",
             "result": {
               "status": "passed",
-              "duration": 350000000
+              "duration": 347000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I verify that the result is equal the 3",
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 26000000
             }
           }
         ]
@@ -53,7 +53,7 @@
             "name": "I add 100 and 200",
             "result": {
               "status": "passed",
-              "duration": 63000000
+              "duration": 39000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "I verify that the result is equal the 300",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 13000000
             }
           }
         ]
@@ -83,7 +83,7 @@
             "name": "I put \"apple\" in a juicer",
             "result": {
               "status": "passed",
-              "duration": 140000000
+              "duration": 150000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "I switch it on",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 25000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "I should get \"apple juice\"",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 18000000
             }
           }
         ]
@@ -123,7 +123,7 @@
             "name": "I put \"pineapple\" in a juicer",
             "result": {
               "status": "passed",
-              "duration": 101000000
+              "duration": 75000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "name": "I switch it on",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 11000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "I should get \"pineapple juice\"",
             "result": {
               "status": "passed",
-              "duration": 23000000
+              "duration": 33000000
             }
           }
         ]
@@ -163,7 +163,7 @@
             "name": "I put \"strawberry\" in a juicer",
             "result": {
               "status": "passed",
-              "duration": 40000000
+              "duration": 102000000
             }
           },
           {
@@ -183,7 +183,7 @@
             "name": "I should get \"strawberry juice\"",
             "result": {
               "status": "passed",
-              "duration": 23000000
+              "duration": 24000000
             }
           }
         ]
@@ -203,7 +203,7 @@
             "name": "I enter 1 and 2",
             "result": {
               "status": "passed",
-              "duration": 57000000
+              "duration": 48000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "I see following result table",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 10000000
             }
           }
         ]
@@ -252,7 +252,7 @@
             "name": "I enter 3 and 4",
             "result": {
               "status": "passed",
-              "duration": 178000000
+              "duration": 73000000
             }
           },
           {
@@ -301,7 +301,7 @@
             "name": "I enter 5 and 6",
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 37000000
             }
           },
           {
@@ -330,7 +330,7 @@
             "name": "I see following result table",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 11000000
             }
           }
         ]
@@ -350,7 +350,7 @@
             "name": "I enter variable \"abc\" and \"abc\"",
             "result": {
               "status": "passed",
-              "duration": 26000000
+              "duration": 31000000
             }
           },
           {
@@ -360,7 +360,7 @@
             "name": "I verify that both variables have \"abc\" as value",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 5000000
             }
           }
         ]
@@ -380,7 +380,7 @@
             "name": "I enter variable \"pqr\" and \"pqr\"",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 21000000
             }
           },
           {
@@ -390,7 +390,7 @@
             "name": "I verify that both variables have \"pqr\" as value",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 3000000
             }
           }
         ]
@@ -410,7 +410,7 @@
             "name": "I enter variable \"xyz\" and \"xyz\"",
             "result": {
               "status": "passed",
-              "duration": 24000000
+              "duration": 21000000
             }
           },
           {
