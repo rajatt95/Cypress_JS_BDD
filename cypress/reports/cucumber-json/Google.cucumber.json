@@ -32,7 +32,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 4823000000
+              "duration": 3201000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I see \"Google\" in the title",
             "result": {
               "status": "passed",
-              "duration": 107000000
+              "duration": 52000000
             }
           }
         ]
@@ -71,7 +71,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 3649000000
+              "duration": 1355000000
             }
           },
           {
@@ -81,7 +81,7 @@
             "name": "I see \"Google\" in the title",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 10000000
             }
           },
           {
@@ -91,18 +91,23 @@
             "name": "I search for \"Test Automation Engineer\"",
             "result": {
               "status": "passed",
-              "duration": 9712000000
+              "duration": 4921000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 15,
-            "name": "I see \"Test Automation Engineer\" in the title",
+            "name": "I see \"Test Automation Engineer Dummy\" in the title",
             "result": {
-              "status": "passed",
-              "duration": 7000000
-            }
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Test Automation Engineer - Google Search' to include 'Test Automation Engineer Dummy'\n    at Context.eval (https://www.google.com/__cypress/tests?p=cypress/integration/01-BDD_Google/Google.feature:47:14)\n    at Context.resolveAndRunStepDefinition (https://www.google.com/__cypress/tests?p=cypress/integration/01-BDD_Google/Google.feature:10487:29)\n    at Context.eval (https://www.google.com/__cypress/tests?p=cypress/integration/01-BDD_Google/Google.feature:9808:35)"
+            },
+            "embeddings": [
+              {
+                "mime_type": "image/png"
+              }
+            ]
           }
         ]
       },
@@ -130,7 +135,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 1457000000
+              "duration": 1019000000
             }
           },
           {
@@ -140,7 +145,7 @@
             "name": "I see \"Google\" in the title",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 4000000
             }
           },
           {
@@ -150,7 +155,7 @@
             "name": "I search for using Scenario Outline and Examples \"Selenium\"",
             "result": {
               "status": "passed",
-              "duration": 4713000000
+              "duration": 3496000000
             }
           }
         ]
@@ -179,7 +184,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 1582000000
+              "duration": 1142000000
             }
           },
           {
@@ -189,7 +194,7 @@
             "name": "I see \"Google\" in the title",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 6000000
             }
           },
           {
@@ -199,7 +204,7 @@
             "name": "I search for using Scenario Outline and Examples \"Appium\"",
             "result": {
               "status": "passed",
-              "duration": 4675000000
+              "duration": 2873000000
             }
           }
         ]
@@ -228,7 +233,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 1268000000
+              "duration": 831000000
             }
           },
           {
@@ -238,7 +243,7 @@
             "name": "I see \"Google\" in the title",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 3000000
             }
           },
           {
@@ -248,7 +253,7 @@
             "name": "I search for using Scenario Outline and Examples \"RestAssured\"",
             "result": {
               "status": "passed",
-              "duration": 4640000000
+              "duration": 4029000000
             }
           }
         ]
@@ -277,7 +282,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 1400000000
+              "duration": 902000000
             }
           },
           {
@@ -287,7 +292,7 @@
             "name": "I see \"Google\" in the title",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 3000000
             }
           },
           {
@@ -297,7 +302,7 @@
             "name": "I search for using Scenario Outline and Examples \"Cypress\"",
             "result": {
               "status": "passed",
-              "duration": 5014000000
+              "duration": 3343000000
             }
           }
         ]

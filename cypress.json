@@ -6,5 +6,10 @@
         "reportDir": "cypress/reports/mochawesome-report",
         "charts": true,
         "reportPageTitle": "This is a Cypress-Mochawesome-Reporter"
-    }
+    },
+    "retries": {
+        "runMode": 1, 
+        "openMode": 0
+    },
+    "video":false
 }

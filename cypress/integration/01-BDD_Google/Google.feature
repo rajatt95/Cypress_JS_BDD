@@ -12,7 +12,7 @@ Feature: Google Main Page
     Given I open Google page
     Then I see "Google" in the title
     When I search for "Test Automation Engineer"
-    Then I see "Test Automation Engineer" in the title
+    Then I see "Test Automation Engineer Dummy" in the title
 
 #  @regression @focus
 #   Scenario: Opening a search engine page for search text -> title validation

@@ -13,12 +13,18 @@
     "test_BDD_Google_electron_regression": "cypress run --spec cypress/integration/01-BDD_Google/Google.feature --headed -e TAGS='@regression'",
     "test_BDD_Google_firefox_regression": "cypress run --spec cypress/integration/01-BDD_Google/*.feature --headed -e TAGS='@regression' --browser firefox",
     "test_BDD_Google_chrome_sanity": "cypress run --spec cypress/integration/01-BDD_Google/Google.feature --headed -e TAGS='@sanity' --browser chrome",
-    "test_BDD_Google_electron_regression_cmr": "cypress run --spec cypress/integration/01-BDD_Google/Google.feature --headed -e TAGS='@regression' --reporter cypress-mochawesome-reporter"
+    "Comment_1": "=============================== https://www.youtube.com/watch?v=FB87Ylz8vko&t=344s&ab_channel=QABoxLet%27sTest ============================ ",
+    "test_BDD_Google_electron_regression_cmr": "cypress run --spec cypress/integration/01-BDD_Google/Google.feature --headed -e TAGS='@regression' --reporter cypress-mochawesome-reporter",
+    "clean:reports": "if exist ./cypress/reports rmdir ./cypress/reports",
+    "test_preExecution": "npm run clean:reports",
+    "test_postExecution": "node cucumber-html-report.js",
+    "test": "npm run test_BDD_Google_electron_regression_cmr || npm run test_postExecution"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^9.5.2",
+    "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-mochawesome-reporter": "^3.0.0",
     "cypress-xpath": "^1.6.2",
@@ -28,7 +34,7 @@
     "nonGlobalStepDefinitions": true,
     "cucumberJson": {
       "generate": true,
-      "outputFolder": "cypress/cucumber-json",
+      "outputFolder": "cypress/reports/cucumber-json",
       "filePrefix": "",
       "fileSuffix": ".cucumber"
     }
