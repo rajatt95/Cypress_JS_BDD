@@ -14,11 +14,15 @@
     "test_BDD_Google_firefox_regression": "cypress run --spec cypress/integration/01-BDD_Google/*.feature --headed -e TAGS='@regression' --browser firefox",
     "test_BDD_Google_chrome_sanity": "cypress run --spec cypress/integration/01-BDD_Google/Google.feature --headed -e TAGS='@sanity' --browser chrome",
     "Comment_1": "=============================== https://www.youtube.com/watch?v=FB87Ylz8vko&t=344s&ab_channel=QABoxLet%27sTest ============================ ",
+    "clean:reports_old": "if exist ./cypress/reports rmdir ./cypress/reports",
+    "clean:reports_win": "rmdir /S /Q cypress\\reports && mkdir cypress\\reports",
+    "clean:reports_mac": "rm -R -f cypress/reports && mkdir cypress/reports",
+    "Comment_2": "=============================== Pre | Execution | Post ============================ ",
     "test_BDD_Google_electron_regression_cmr": "cypress run --spec cypress/integration/01-BDD_Google/Google.feature --headed -e TAGS='@regression' --reporter cypress-mochawesome-reporter",
-    "clean:reports": "if exist ./cypress/reports rmdir ./cypress/reports",
+    "clean:reports": "rm -R -f cypress/reports && mkdir cypress/reports",
     "test_preExecution": "npm run clean:reports",
     "test_postExecution": "node cucumber-html-report.js",
-    "test": "npm run test_BDD_Google_electron_regression_cmr || npm run test_postExecution"
+    "test": "test_preExecution || npm run test_BDD_Google_electron_regression_cmr || npm run test_postExecution"
   },
   "author": "",
   "license": "ISC",
