@@ -1,11 +1,12 @@
 {
-    "ignoreTestFiles":"*.js",
     "testFiles": "**/*.{feature,features}",
     "reporter": "cypress-mochawesome-reporter",
     "reporterOptions": {
         "reportDir": "cypress/reports/mochawesome-report",
         "charts": true,
-        "reportPageTitle": "This is a Cypress-Mochawesome-Reporter"
+        "reportPageTitle": "This is a Cypress-Mochawesome-Reporter",
+        "embeddedScreenshots":true,
+        "inlineAssets":true
     },
     "retries": {
         "runMode": 1, 

@@ -25,4 +25,12 @@ module.exports = (on, config) => {
   
   require('cypress-mochawesome-reporter/plugin')(on);
 
+
+  // https://docs.cypress.io/api/plugins/after-run-api#Log-the-number-of-passed-tests-of-a-run
+  // // on('after:run', (results) => {
+  // //   if (results) {
+  // //     console.log('======================================')
+  // //     console.log(results.totalPassed, 'out of', results.totalTests, 'passed')
+  // //   }
+  // })
 }

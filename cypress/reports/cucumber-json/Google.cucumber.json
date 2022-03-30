@@ -32,7 +32,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 3246000000
+              "duration": 2758000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I see \"Google\" in the title",
             "result": {
               "status": "passed",
-              "duration": 54000000
+              "duration": 52000000
             }
           }
         ]
@@ -71,7 +71,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 1063000000
+              "duration": 1186000000
             }
           },
           {
@@ -81,7 +81,7 @@
             "name": "I see \"Google\" in the title",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 14000000
             }
           },
           {
@@ -91,7 +91,7 @@
             "name": "I search for \"Test Automation Engineer\"",
             "result": {
               "status": "passed",
-              "duration": 4446000000
+              "duration": 3394000000
             }
           },
           {
@@ -135,7 +135,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 1206000000
+              "duration": 1072000000
             }
           },
           {
@@ -145,7 +145,7 @@
             "name": "I see \"Google\" in the title",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 3000000
             }
           },
           {
@@ -155,7 +155,7 @@
             "name": "I search for using Scenario Outline and Examples \"Selenium\"",
             "result": {
               "status": "passed",
-              "duration": 3644000000
+              "duration": 2744000000
             }
           }
         ]
@@ -184,7 +184,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 1089000000
+              "duration": 1060000000
             }
           },
           {
@@ -204,7 +204,7 @@
             "name": "I search for using Scenario Outline and Examples \"Appium\"",
             "result": {
               "status": "passed",
-              "duration": 1898000000
+              "duration": 2982000000
             }
           }
         ]
@@ -233,7 +233,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 916000000
+              "duration": 913000000
             }
           },
           {
@@ -253,7 +253,7 @@
             "name": "I search for using Scenario Outline and Examples \"RestAssured\"",
             "result": {
               "status": "passed",
-              "duration": 2428000000
+              "duration": 2077000000
             }
           }
         ]
@@ -282,7 +282,7 @@
             "name": "I open Google page",
             "result": {
               "status": "passed",
-              "duration": 1286000000
+              "duration": 1241000000
             }
           },
           {
@@ -292,7 +292,7 @@
             "name": "I see \"Google\" in the title",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 13000000
             }
           },
           {
@@ -302,7 +302,7 @@
             "name": "I search for using Scenario Outline and Examples \"Cypress\"",
             "result": {
               "status": "passed",
-              "duration": 3111000000
+              "duration": 3752000000
             }
           }
         ]

@@ -22,6 +22,7 @@ import './commands'
 //https://www.youtube.com/watch?v=YV3qPvhJ-rg&ab_channel=remarkablemark
 import 'cypress-xpath'
 
+// https://dzone.com/articles/cypress-generate-html-results-with-screenshot -> Embedded Screenshots in Mochawesome report
 import 'cypress-mochawesome-reporter/register';
 
 // https://github.com/dane-harnett/cypress-cucumber-attach-screenshots-to-failed-steps
