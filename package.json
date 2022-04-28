@@ -19,10 +19,14 @@
     "clean:reports_mac": "rm -R -f cypress/reports && mkdir cypress/reports",
     "Comment_2": "=============================== Pre | Execution | Post ============================ ",
     "test_BDD_Google_electron_regression_cmr": "cypress run --spec cypress/integration/01-BDD_Google/Google.feature --headed -e TAGS='@regression' --reporter cypress-mochawesome-reporter",
-    "clean:reports": "rm -R -f cypress/reports && mkdir cypress/reports",
+     "clean:reports": "rm -R -f cypress/reports && mkdir cypress/reports",
     "test_preExecution": "npm run clean:reports",
     "test_postExecution": "node cucumber-html-report.js",
-    "test": "test_preExecution || npm run test_BDD_Google_electron_regression_cmr || npm run test_postExecution"
+    "test": "test_preExecution || npm run test_BDD_Google_electron_regression_cmr || npm run test_postExecution",
+    "test_BDD_Google_electron_bvt_cmr": "cypress run --spec cypress/integration/01-BDD_Google/*.feature --headed -e TAGS='@bvt' --reporter cypress-mochawesome-reporter",
+    "test_bvt": "test_preExecution || npm run test_BDD_Google_electron_bvt_cmr || npm run test_postExecution",
+    "test_BDD_Google_electron_smoke_cmr": "cypress run --spec cypress/integration/01-BDD_Google/*.feature --headed -e TAGS='@smoke' --reporter cypress-mochawesome-reporter",
+    "test_smoke": "test_preExecution || npm run test_BDD_Google_electron_smoke_cmr || npm run test_postExecution"
   },
   "author": "",
   "license": "ISC",
