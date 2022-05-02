@@ -17,11 +17,11 @@ report.generate({
     customData: {
         title: 'Run info',
         data: [
-            {label: 'Project', value: 'Cypress Learning project'},
+            {label: 'Project', value: 'Cypress BDD project'},
             {label: 'Release', value: '1.2.3'},
             {label: 'Cycle', value: 'B11221.34321'},
-            {label: 'Execution Start Time', value: 'Nov 19th 2017, 02:31 PM EST'},
-            {label: 'Execution End Time', value: 'Nov 19th 2017, 02:56 PM EST'}
+            {label: 'Execution Start Time', value: 'May 02, 2022, 06:05 PM PM IST'},
+            {label: 'Execution End Time', value: 'May 02, 2022, 06:06 PM IST'}
         ]
     }
 });
