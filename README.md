@@ -7,7 +7,8 @@ Automation Testing | Web | Cypress | Javascript | VS Code | Mocha | Cucumber | C
 # Tutor: <a href="https://www.udemy.com/user/rahul445/">Rahul Shetty</a>
 
 ------------------------------------------------------------------------------------------------------------------------
-Learnings from Course : 
+# Learnings from Course : [Summary_UDEMY_RS_Cypress - Modern Automation Testing from Scratch + Frameworks.pdf](https://github.com/rajatt95/Cypress_JS_BDD/files/8687127/Summary_UDEMY_RS_Cypress.-.Modern.Automation.Testing.from.Scratch.%2B.Frameworks.pdf)
+
 ------------------------------------------------------------------------------------------------------------------------
 ![image](https://user-images.githubusercontent.com/26399692/166233401-120ce940-a17c-4e73-8cfc-c49b8c67155a.png)
 ![image](https://user-images.githubusercontent.com/26399692/166233448-817913f1-6cea-4bb2-ad86-abc2f9143f7c.png)
